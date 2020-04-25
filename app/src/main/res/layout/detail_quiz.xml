@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:background="@color/colorPrimary"
         android:layout_height="wrap_content">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quizz"
-            android:textSize="18sp"
-            android:textColor="#FFF"
             android:layout_gravity="center"
-            />
+            android:text="Quiz"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
     </androidx.appcompat.widget.Toolbar>
 
 
