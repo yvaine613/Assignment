@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:contentInsetStart="0dp">
+
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="#333333"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:background="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:text="a"
+            android:gravity="center"
+            android:id="@+id/iv_first"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:id="@+id/iv_second"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:text="b"
+            android:layout_height="match_parent"
+            android:background="#529DFE"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:textSize="30sp"
+            android:id="@+id/iv_three"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#F57B66"
+            android:text="c"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:id="@+id/iv_four"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#FFCE45"
+            android:text="d"
+            android:layout_marginStart="20dp"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="1">
+        <TextView
+            android:visibility="gone"
+            android:textSize="30sp"
+            android:id="@+id/iv_five"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#F57B66"
+            android:text="c"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+</LinearLayout>
