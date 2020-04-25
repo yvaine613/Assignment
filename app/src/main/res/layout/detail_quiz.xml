@@ -23,52 +23,55 @@
     </androidx.appcompat.widget.Toolbar>
 
 
-
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="349dp"
+        android:layout_height="46dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="28dp"
-        android:text="Which language you want to test ?"
+        android:text="      Choose 1 you want to test"
+        android:textAllCaps="false"
+
         android:textSize="24sp"
-
-     />
-
+        android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_marginTop="30dp"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="169dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
         <ImageView
             android:id="@+id/iv_french"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/french" />
+
         <ImageView
-            android:layout_marginStart="30dp"
             android:id="@+id/iv_germany"
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:layout_marginStart="30dp"
             android:src="@drawable/germany" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_marginTop="30dp"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="245dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+
         <ImageView
             android:id="@+id/iv_korean"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/korean" />
+
         <ImageView
-            android:layout_marginStart="30dp"
             android:id="@+id/iv_yen"
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:layout_marginStart="30dp"
             android:src="@drawable/yen" />
     </LinearLayout>
 
