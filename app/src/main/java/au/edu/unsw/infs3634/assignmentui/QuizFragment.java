@@ -45,7 +45,7 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.iv_germany:
                 intent = new Intent(getActivity(),ExamActivity.class);
-                intent.putExtra("Language","Germany");
+                intent.putExtra("Language","German");
                 startActivity(intent);
                 break;
             case R.id.iv_korean:

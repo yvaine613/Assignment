@@ -540,167 +540,145 @@ public class MainActivity extends AppCompatActivity {
         QuestionDao.getInstance(this).addQuestion(new Question("médecin","doctor","Jobs","French"));
 
 
-
-        QuestionDao.getInstance(this).addQuestion(new Question("パン","Bread","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("バター","Butter","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ケーキ","Cake","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("チーズ","Cheese","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("たまご","Egg","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("にく","Meat","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ぎゅうにゅう","Milk","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ソーセージ","Salt","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("こむぎこ","Flour","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ステーキ","Steak","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("サンドイッチ","Sandwich","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("サラダ","Salad","Food","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("やさい","Vegetables","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("das Brötchen","Bread rolls","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("das Weißbrot","White bread","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("die Butter","Butter","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Joghurt","Yoghurt","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("das Ei","Egg","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Honig","Honey","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Käse","Cheese","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("die Wurst","Sausage","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Schinken","Ham","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Kaffee","Coffee","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Salat","Salad","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("die Tomate","Potato","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("der Pilz","Mushrooms","Food","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("die Karotte","Carrot","Food","German"));
 
         // Lesson 2 ----  sports
-
-        QuestionDao.getInstance(this).addQuestion(new Question("スポーツ","Sport","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("やきゅう","Baseball","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("すもう","Sumo Wrestling","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("すいえい","Swimming","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("つり, 釣り","Fishing","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ピンポン","Table Tennis","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("サッカー","Soccer","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("テニス","Tennis","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ゴルフ","Golf","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("バスケットボール","basketball","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("フットボール","football","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("バドミントン","Badminton","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("スキー","Skiing","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ランニング","Running","Sports","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("スケート","Skating","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Sport","sport","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Surfen","surfing","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Tauchen","diving","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Schwimmen","swimming","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Rudern","rowing","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Tanzen","dancing","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Laufen","running","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Basketball","basketball","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Radfahren","cycling","Sports","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("das Skifahren","the skiing","Sports","German"));
 
         //    Lesson 3 ---- fruits
+        QuestionDao.getInstance(this).addQuestion(new Question("Apfel","Apple","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Birne","Pear","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Banane","Banane","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Orange","Orange","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Zitrone","Lemon","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Pfirsich","Peach","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Pflaume","Plum","Fruits","German"));
 
-
-        QuestionDao.getInstance(this).addQuestion(new Question("フルーツ","fruit","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("りんご","Apple","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("オレンジ","Orange","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("バナナ","Banana","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("すいか","Watermelon","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("いちご","Strawberry","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("レモン","Lemon","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("もも","Peach","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("なし","Mango","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ぶどう","Grape","Fruits","German"));
-
-        QuestionDao.getInstance(this).addQuestion(new Question("ざくろ","Pomegranate","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("メロン","Melon","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("キウイ","Kiwi","Fruits","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("きいちご","Raspberry","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Traube","Grape","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Erdbeere","Strawberry","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Himbeere","Raspberry","Fruits","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Kirsche","Cherry","Fruits","German"));
 
         //  Lesson 4 ---- Animals
 
-        QuestionDao.getInstance(this).addQuestion(new Question("ネズミ","Mouse","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ねこ","Cat","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("いぬ","Dog","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("カモ","Wild Duck","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ウシ","Cattle","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ウマ","Horse","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("シマウマ","Zebra","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ヒツジ","Sheep","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ブタ","Pig","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("パンダ","Panda","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("カンガルー","Kangaroo","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("オオカミ","Wolf","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("トラ","Tiger","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ライオン","Lion","Animals","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ヘビ","Snake","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Tier","animal","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Bär","bear","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Fuchs","fox","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Hahn","rooster","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Henne","chick","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Küken","Horse","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Kaninchen","rabbit","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Katze","cat","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Ameise","ant","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Biene","bee","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Kuh","lion","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Löwe","lion","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Maus","mouse","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Pferd","horse","Animals","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Schlange","snake","Animals","German"));
         //  Lesson 5 ---- weather
-        QuestionDao.getInstance(this).addQuestion(new Question("てんき","Weather","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("はれ"," Clear Weather / Fair Weather","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("たいよう","Sun","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("くも","Cloud","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ゆき","Snow","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("あめ","Rain","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ぼうふうう","Rainstorm","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かみなり","Thunder","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かぜ","Wind / Breeze","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かんそう","Dryness","Weather","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("しっけ","Moisture / Humidity / Damp","Weather","German"));
+
+
+        QuestionDao.getInstance(this).addQuestion(new Question("Taifun","typhoon","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Schnee","snow","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("bewölkt","cloudy","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("sonnig","sunny","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("windig","windy","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("berschwemmung","flood","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Regen","rain","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Wind","Wind","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("starker Regen","freeze","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Regenbogen","rainbow","Weather","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("vereisen","ice over","Weather","German"));
 
         //Lesson 6 ---- body parts
-
-        QuestionDao.getInstance(this).addQuestion(new Question("あたま","Head","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("みみ","Ear","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("め","Eye","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("はな","Nose","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("て","Hand","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("はら","Stomach","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ひざ","Knee","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かお","Face","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ほお/ほほ","Cheek","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かた","Shoulder","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("あし","Foot / Leg","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("はだ","Skin","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かかと","Heel","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("くび","Neck","Body Parts","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("くちびる","Lips","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Kopf","Head","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Auge","Eye","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Nase","Nose","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Mund","Mouth","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Nacken","Neck","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Schulter","Shoulder","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Rücken","Back","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Arm","Arm","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Bein","Leg","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Knie","Knee","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Fuß","Neck","Body Parts","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Zeh","Toe","Body Parts","German"));
 
         //  Lesson 7 ---- colors
-        QuestionDao.getInstance(this).addQuestion(new Question("いろ","color","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("オレンジ","orange","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("きいろ","yellow","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("あお","blue","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("あか","red","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("みどり","green","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("くろ","black","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ちゃいろ","brown","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ピンク","pink","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("むらさき,","purple","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("しろ","white","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("はいいろ","gray","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("きんいろ","gold","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ぎんいろ","silver","Colors","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("にじ","rainbow","Colors","German"));
+
+        QuestionDao.getInstance(this).addQuestion(new Question("orange","orange","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("gelb","yellow","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("blau","blue","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("rot","red","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("grün","green","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("braun","brown","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("rosa","pink","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("grau","gray","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("lila","violet","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("weiß","white","Colors","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("schwarz","black","Colors","German"));
 
         //  Lesson 8 ----Aquarium
-        QuestionDao.getInstance(this).addQuestion(new Question("にしん","herring","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("くらげ","jellyfish","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ロブスター","lobster","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かに","crab","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かき","oyster","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("いか","squid","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("さめ","shark","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("いるか","dolphin","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("くじら","whale","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("さけ","salmon","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("ます","trout","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("こい","carp","Aquarium","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("うなぎ","eel","Aquarium","German"));
+
+        QuestionDao.getInstance(this).addQuestion(new Question("Oktopus","octopus","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Qualle","jellyfish","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Wal","whale","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Krabbe","crab","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Delfin","dolphin","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Seehund","seal","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Hai","shark","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Fisch","fish","Aquarium","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Aquarium","aquarium","Aquarium","German"));
 
         // Lesson 9 ---- Family
+        QuestionDao.getInstance(this).addQuestion(new Question("Großvater","Grandfather","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Großmutter","Grandmother","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Bruder","Brother","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Schwester","sister","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Mutter","Mother","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Vater","Father","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Sohn","Son","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Tochter","Daughter","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Onkel","Uncle","Family","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Tante","Aunt","Family","German"));
 
-        QuestionDao.getInstance(this).addQuestion(new Question("そふ","Grandfather","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("そぼ","Grandmother","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("あに","Older Brother","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("あね","older sister","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("おとうと","Younger Brother","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("いもうと","Younger Sister","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("こども","Children","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("むすこ","Son","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("むすめ","Daughter","Family","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("りょうしん","Parents","Family","German"));
 
-        // Lesson 10 ----Jobs
-        QuestionDao.getInstance(this).addQuestion(new Question("しょくぎょう","Occupation","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("いしゃ","Doctor","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かんごふ","Female Nurse","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かんごし","Nurse","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("しかい","Dentist","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かがくしゃ","Scientist","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("きょうし","Teacher","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("せんせい","Teacher","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かしゅ","Singer","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("がか,"," Painter / Artist","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("かいけいし","lawyer","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("エンジニア","Engineer","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("のうみん","Farmer","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("きしゃ","Reporter","Jobs","German"));
-        QuestionDao.getInstance(this).addQuestion(new Question("けんちくか","Architect","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Kellner","waiter","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Kellnerin","waitress","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Arzt","doctor","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Koch (m)","cook (m)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Köchin (f)","cook (f)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Designer (m)","designer (m)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Lehrer (m)","Teacher(m)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Lehrerin (f","Teacher(f)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Designerin (f)","designer (f)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Ingenieur (m),","engineer (m)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Ingenieur (f)","engineer (f)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Verkäufer (m)","sales assistant (m)","Jobs","German"));
+        QuestionDao.getInstance(this).addQuestion(new Question("Verkäuferin (f)","sales assistant (f)","Jobs","German"));
     }
 
     private void switchTab(Fragment fragment) {

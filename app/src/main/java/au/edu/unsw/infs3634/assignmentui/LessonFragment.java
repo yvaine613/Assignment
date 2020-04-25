@@ -44,7 +44,7 @@ public class LessonFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.GO2:
                 intent = new Intent(getActivity(),LessonActivity.class);
-                intent.putExtra("Language","Germany");
+                intent.putExtra("Language","German");
                 startActivity(intent);
                 break;
             case R.id.GO3:
