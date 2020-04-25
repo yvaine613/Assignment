@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:gravity="center_vertical"
-            android:text="Tel-Number"
+            android:text="Telephone"
             android:textSize="16sp" />
 
         <EditText
@@ -112,9 +112,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
         android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
         android:background="@color/colorPrimary"
-        android:text="Confirm"
-        android:textColor="@color/white" />
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="   E.g. :"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="   UserName : Apple"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="   Telephone : 123456789"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="   Password : 12345"
+        android:textSize="18sp" />
 </LinearLayout>

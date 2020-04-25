@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Lesson");
+        toolbar.setTitle("SIGN UP");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -53,10 +53,10 @@ public class RegisterActivity extends AppCompatActivity {
                 }
                 User user = new User(name, pwd, phone,"", "") ;
                 if (QuestionDao.getInstance(RegisterActivity.this).registerUser(user)){
-                    showToast("success");
+                    showToast("Success");
                     finish();
                 }else{
-                    showToast("failed");
+                    showToast("Failed");
                 }
             }
         });
