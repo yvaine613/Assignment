@@ -24,6 +24,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
         return  new ViewHolder(view);
     }
     @Override
+    //set the comment
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
         Comment comment = mComments.get(position);
         holder.mtvTime.setText( comment.getTime());

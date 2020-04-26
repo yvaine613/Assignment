@@ -95,6 +95,7 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             show();
             return;
         }
+        //fill the block
         Question data = exams.get(position);
         tvQuestion.setText((position+1)+". " +data.getName());
         ArrayList<String> list = new ArrayList<>();
@@ -121,6 +122,7 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
 
 
     @Override
+    //get the answer from students
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.iv_first:

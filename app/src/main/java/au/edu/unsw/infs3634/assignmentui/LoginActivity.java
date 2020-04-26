@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         });
         findViewById( R.id.btLogin).setOnClickListener(new View.OnClickListener() {
             @Override
+            //get the information from textview
             public void onClick(View view) {
                 String name = mMobileEt.getText().toString();
                 String pwd = mPwdEt.getText().toString();

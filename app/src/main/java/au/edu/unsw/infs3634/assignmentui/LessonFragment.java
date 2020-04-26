@@ -34,6 +34,7 @@ public class LessonFragment extends Fragment implements View.OnClickListener {
 
 
     @Override
+    //switch to different lesson
     public void onClick(View v) {
         Intent intent;
         switch (v.getId()){

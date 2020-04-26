@@ -56,6 +56,7 @@ public class LessonActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    //create listview
     private void initLesson() {
         list.add("Food");
         list.add("Fruits");

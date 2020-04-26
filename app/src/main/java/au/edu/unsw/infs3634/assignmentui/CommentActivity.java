@@ -22,6 +22,7 @@ public class CommentActivity extends AppCompatActivity {
     private String type;
 
     @Override
+    //set the comment
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_comment);
