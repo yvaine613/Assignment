@@ -93,7 +93,7 @@ public class StudyActivity extends AppCompatActivity {
 
     private void show(){
         new AlertDialog.Builder(this)
-                .setTitle("Alert")
+                .setTitle("Congratulation!")
                 .setMessage("Please select an operation")
                 .setPositiveButton("Joke", new DialogInterface.OnClickListener() {
                     @Override
@@ -115,7 +115,7 @@ public class StudyActivity extends AppCompatActivity {
     private void addComment() {
         EditText view = new EditText(this);
         new AlertDialog.Builder(this)
-                .setTitle("Alert")
+                .setTitle("Comment")
                 .setView(view)
                 .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
                     @Override

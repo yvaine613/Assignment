@@ -24,7 +24,7 @@
     </androidx.appcompat.widget.Toolbar>
     <LinearLayout
         android:orientation="horizontal" android:layout_width="match_parent"
-        android:layout_height="32dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:id="@+id/layout_search"
@@ -42,18 +42,41 @@
 
         <EditText
             android:id="@+id/et_key"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="338dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="8dp"
+            android:background="@null"
             android:hint="Key"
+            android:imeOptions="actionSearch"
             android:maxLines="1"
             android:singleLine="true"
-            android:background="@null"
-            android:imeOptions="actionSearch"
             android:textColor="#AAAAAA"
             android:textSize="16sp" />
 
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you have some questions? Search it!"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        app:srcCompat="@drawable/study" />
+
 </LinearLayout>
